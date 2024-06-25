@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_eliminar"
+    tools:context=".Eliminar">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="508dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/fauna_one"
+        android:text="Una vez que lo hayas eliminado, no podrás recuperarlo. Procedamos con calma:"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/fauna_one"
+        android:text="Primero selecciona el programa que deseas eliminar:"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="220dp"
+        android:fontFamily="@font/fauna_one"
+        android:text="¿Estás seguro que deseas eliminar el proyecto?"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <ImageButton
+        android:id="@+id/btn_X_Elim"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="80dp"
+        android:background="@android:drawable/picture_frame"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:srcCompat="@drawable/icono_x" />
+
+    <ImageButton
+        android:id="@+id/btn_Check_Elim"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="80dp"
+        android:background="@android:drawable/picture_frame"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toEndOf="@+id/btn_X_Elim"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:srcCompat="@drawable/icono_check" />
+
+    <ListView
+        android:layout_width="434dp"
+        android:layout_height="84dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="80dp"
+        android:background="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <ImageButton
+        android:id="@+id/btn_Regresar_Elim"
+        android:layout_width="125dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_X_Elim"
+        app:srcCompat="@drawable/icono_regresar" />
+</android.support.constraint.ConstraintLayout>

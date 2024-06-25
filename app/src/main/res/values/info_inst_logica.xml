@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="info_inst_Logicas">
+        <!--24--><item>Se carga el valor en DN.\nRemplaza VALOR por el número y N por un número de 0 a 15. Ejemplo: LOAD 14,5</item>
+        <!--25--><item>Se carga el valor que viene del registro paralelo 74LS166.\n N = número entre 0 y 15. Ejemplo: LOAD_IC D14</item>
+        <!--26--><item>Saca el valor de un registro disponible para el usuario a pines del micro.\nN = número entre 0 y 15. Ejemplo: OUT D14</item>
+        <!--27--><item>Saca el valor de un registro de sensor a pines del micro.\nN = número entre 0 y 15. Ejemplo: OUT R14</item>
+        <!--28--><item>Se saca el valor que viene de un registro DN de datos a un 74LS166.\nN = número entre 0 y 15. Ejemplo: OUT_IC D14</item>
+        <!--29--><item>Se saca el valor que viene de un registro RN de datos a un 74LS166.\nN = número entre 0 y 15. Ejemplo: OUT_IC R14</item>
+        <!--30--><item>Movimiento del valor almacenadano en un registro RN a un DN.\nN = número entre 0 y 15. Ejemplo: MOV D14,R14</item>
+        <!--31--><item>Movimiento del valor almacenadano en un registro DN a un RN.\nN = número entre 0 y 15. Ejemplo: MOV R14,D14</item>
+        <!--32--><item>Incrementamos en 1 el valor del registro DN.\nN = número entre 0 y 15. Ejemplo: INC D14</item>
+        <!--33--><item>Decrementamos en 1 el valor del registro DN.\nN = número entre 0 y 15. Ejemplo: DEC D14</item>
+        <!--34--><item>Incrementamos en 1 el valor del registro RN.\nN = número entre 0 y 15. Ejemplo: INC R14</item>
+        <!--35--><item>Decrementamos en 1 el valor del registro RN.\nN = número entre 0 y 15. Ejemplo: DEC R14</item>
+        <!--36--><item>Se suma el valor a DN.\nRemplaza VALOR por el número y N por un número de 0 a 15. Ejemplo: ADD D14,5</item>
+        <!--37--><item>Se suma el valor a RN.\nRemplaza VALOR por el número y N por un número de 0 a 15. Ejemplo: ADD R14,5</item>
+        <!--38--><item>Se resta el valor a DN.\nRemplaza VALOR por el número y N por un número de 0 a 15. Ejemplo: SUBS D14,5</item>
+        <!--39--><item>Se resta el valor a RN.\nRemplaza VALOR por el número y N por un número de 0 a 15. Ejemplo: SUBS R14,5</item>
+        <!--40--><item>Condinional para un registro DN con un determinado valor(DN-VALOR).\nN = número entre 0 y 15. Ejemplo: IFCOND D14,5</item>
+        <!--41--><item>Condinional para un registro RN con un determinado valor(RN-VALOR).\nN = número entre 0 y 15. Ejemplo: IFCOND R14,5</item>
+        <!--¿?--><item>Transcurridos los segundos indicados, ejecuta la siguiente función.\nRempralazar # por el número. Ejemplo: IFDELAY SEGUNDOS 5</item>
+        <!--42--><item>Detiene todos los procesos que estan en ejecución.\nNo debes modificar esta instruccón. Ejemplo: STOP</item>
+        <!--43--><item>Envia los datos almacenados en un registro RN por wifi.\nN = número entre 0 y 15. Ejemplo: SEND R14</item>
+        <!--44--><item>Envia los datos almacenados en un registro DN por wifi.\nN = número entre 0 y 15. Ejemplo: SEND D14</item>
+        <!--45--><item>Simula una salida analógica de un registro DN.\nN = número entre 0 y 15. Ejemplo: PWM D14</item>
+        <!--46--><item>Simula una salida analógica de un registro RN.\nN = número entre 0 y 15. Ejemplo: PWM R14</item>
+    </string-array>
+</resources>

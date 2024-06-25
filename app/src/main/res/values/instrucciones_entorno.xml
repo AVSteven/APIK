@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="inst_Entorno">
+        <!--1--><item>MOT_FOR DISTACE #</item>
+        <!--2--><item>MOT_FOR TIME #</item>
+        <!--3--><item>MOT_FOR100D</item>
+        <!--4--><item>MOT_FOR1S</item>
+        <!--5--><item>MOT_BAC DISTACE #</item>
+        <!--6--><item>MOT_BAC TIME #</item>
+        <!--7--><item>MOT BAC100D</item>
+        <!--8--><item>MOT_BAC1S</item>
+        <!--9--><item>MOT_ROTCW ANGLE #</item>
+        <!--10--><item>MOT_ROTCW TIME #</item>
+        <!--11--><item>MOT_ROTCW90D</item>
+        <!--12--><item>MOT_ROTCW180D</item>
+        <!--13--><item>MOT_ROTCW1S</item>
+        <!--14--><item>MOT_ROTCCW ANGLE #</item>
+        <!--15--><item>MOT_ROTCCW TIME #</item>
+        <!--16--><item>MOT_ROTCCW90D</item>
+        <!--17--><item>MOT_ROTCCW180D</item>
+        <!--18--><item>MOT_ROTCCW1S</item>
+        <!--19--><item>READ_BIN REGISTRO</item>
+        <!--20--><item>READ_QUA REGISTRO</item>
+        <!--21--><item>READ_OCT REGISTRO</item>
+        <!--22--><item>READ_HEX REGISTRO</item>
+        <!--23--><item>READ_1K REGISTRO</item>
+    </string-array>
+</resources>

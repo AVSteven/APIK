@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ProyectoDiseno_1</string>
+
+    <string name="nombre_usuario_actual">%s</string>
+    <string name="Info_Crear">Esta opción te permite crear un proyecto nuevo para interactuar con tu Krotic</string>
+    <string name="Info_Modificar">Esta opción te permite modificar un proyecto que ya existe</string>
+    <string name="Info_Eliminar">Esta opción te permite eliminar un proyecto que ya existe</string>
+    <string name="Info_Informacion">Esta opción te da acceso a un menú de información de la aplicación, desarrolladores y programación</string>
+
+    <string name="Info_LuTec">Luthiers de la Tecnología\nPor medio de campamentos y con el uso de materiales de reuso y componentes de bajo costo,
+        se estimula el aprendizaje de conceptos básicos de robótica mediante el principio de enfoque constructivista a través de la construcción
+        de prototipos.\nAsimismo se fomenta en todo momento la cooperación, el trabajo en grupo y el compañerismo.</string>
+    <string name="Info_Krotic">Robótica para jóvenes\nEl Kit de Robótica Costarricense es un robot de fácil ensamblaje para jóvenes de 10 a 15 años.
+        \nLos problemas que un joven enfrenta al trabajar con robots pequeños son del mismo tipo que enfrentan los ingenieros en aplicaciones del
+        “mundo real”, la diferencia es la precisión y el tamaño de los mismos.</string>
+    <string name="Info_Apik">Aplicación para la programación de intrucciones Krotic.\nEs una aplicación para dispositivos móviles con sistema
+        operativo Android, mediante la cual los jóvenes pueden desarrollar programas basados en las instrucciones propias del Kit de
+        Robótica Costarricense(Krotic), para posteriormente visualizar los resultados de dichas instrucciones en el robot.</string>
+
+    <string name="Info_Instrucciones">Las instrucciones que estan a tu disposición se dividen en dos: Entorno y lógica. Las de entorno
+        controlan los sensores y el movimiento del robot. Las de lógica le indican al robot si debe realizar operaciones matematicas o
+        tomar decisiones.</string>
+    <string name="Info_procesoProgramacion">1. Debes seleccionar la instruccion que necesitas. 2. La información de la intrucción se miuestra a la
+        derecha. 3. Al lado abajo de la información aparece la instrucción para uqe puedas modificarla(Verifica que se puede modificar, según
+        la información). 4. Agrega la instrucción a tu programa. NOTA: Si deseas eliminar o modificar debes seleccionar la instrucción
+        en tu programa y de igual forma se carga al espacio de edición o se elimina. 5.Continuar.</string>
+
+    <string name="eliminar_registro">¿Estas seguro que deseas eliminar esta instrucción?</string>
+
+</resources>

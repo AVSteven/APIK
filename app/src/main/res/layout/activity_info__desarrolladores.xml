@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_informacion"
+    tools:context=".Info_Desarrolladores">
+
+    <ImageButton
+        android:id="@+id/btn_infoLutec_ID"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="48dp"
+        android:background="@android:drawable/picture_frame"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:srcCompat="@drawable/logo_lutec" />
+
+    <ImageButton
+        android:id="@+id/btn_infoKrotic_ID"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:background="@android:drawable/picture_frame"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toEndOf="@+id/btn_infoLutec_ID"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:srcCompat="@drawable/logo_krotic" />
+
+    <ImageButton
+        android:id="@+id/btn_infoApik_ID"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:background="@android:drawable/picture_frame"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toEndOf="@+id/btn_infoKrotic_ID"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:srcCompat="@drawable/mascota_saludo" />
+
+    <TextView
+        android:id="@+id/text_InfoDesarrolladores_ID"
+        android:layout_width="505dp"
+        android:layout_height="281dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/fauna_one"
+        android:text="Selecciona la opción de la que gustas información"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_infoKrotic_ID" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/fauna_one"
+        android:text="Selecciona la opción de la que gustas información: "
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_Informacion_ID"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:drawable/picture_frame"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_InfoDesarrolladores_ID"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/btn_MenuInformacion_ID"
+        android:layout_width="125dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_Informacion_ID"
+        app:srcCompat="@drawable/icono_regresar" />
+</android.support.constraint.ConstraintLayout>

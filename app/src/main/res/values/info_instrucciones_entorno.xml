@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="info_inst_Entorno">
+        <!--1--><item>Avanza en linea recta según la distacia establecida.\nRemplaza # por la distancia en cm. Ejemplo: MOT_FOR DISTACE 5.</item>
+        <!--2--><item>Avanza en linea recta por un tiempo determinado.\nRemplaza # por el el tiempo en Segundos. Ejemplo MOT_FOR TIME 5.</item>
+        <!--3--><item>Avanza en linea recta 100 unidades.\nNo debes modificar esta instrucción</item>
+        <!--4--><item>Avanza en linea recta por un segundo.\nNo debes modificar esta instrucción.</item>
+        <!--5--><item>Retrocede en linea recta según la distancia establecida.\n"Remplaza # por la distancia en cm. Ejemplo: MOT_BAC DISTACE 5."</item>
+        <!--6--><item>Retrocede en linea recta por un tiempo determinado.\nRemplaza # por el el tiempo en Segundos. Ejemplo MOT_BAC TIME 5</item>
+        <!--7--><item>Retrocede en linea recta 100 unidades.\nNo debes modificar esta instrucción</item>
+        <!--8--><item>Retrocede en linea recta por un segundo.\nNo debes modificar esta instrucción.</item>
+        <!--9--><item>Rota cierta cantidad de grados en sentido horario.\nRemplaza # por los grados. Ejemplo: MOT_ROTCW ANGLE 5</item>
+        <!--10--><item>Rota por cierto tiempo en sentido horario.\nRemplaza # el tiempo en Segundos. Ejemplo: MOT_ROTCW TIME 5</item>
+        <!--11--><item>Rota 90 grados en sentido horario.\nNo debes modificar esta instrucción</item>
+        <!--12--><item>Rota 180 grados en sentido horario.\nNo debes modificar esta instrucción</item>
+        <!--13--><item>Rota por un segundo en sentido horario.\nNo debes modificar esta instrucción</item>
+        <!--14--><item>Rota cierta cantidad de grados en sentido antihorario.\nRemplaza # por los grados. Ejemplo: MOT_ROTCCW ANGLE 5</item>
+        <!--15--><item>Rota por cierto tiempo en sentido antihorario.\nRemplaza # el tiempo en Segundos. Ejemplo: MOT_ROTCCW TIME 5</item>
+        <!--16--><item>Rota 90 grados en sentido horario.\nNo debes modificar esta instrucción</item>
+        <!--17--><item>Rota 180 grados en sentido horario.\nNo debes modificar esta instrucción</item>
+        <!--18--><item>Rota por un segundo en sentido horario.\nNo debes modificar esta instrucción</item>
+        <!--19--><item>RN = Lectura de sensor en base 2</item>
+        <!--20--><item>RN = Lectura de sensor en base 4</item>
+        <!--21--><item>RN = Lectura de sensor en base 8</item>
+        <!--22--><item>RN = Lectura de sensor en base 16</item>
+        <!--23--><item>RN = Lectura de sensor en base 1K</item>
+    </string-array>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="inst_Logicas">
+        <!--24--><item>LOAD DN,VALOR</item>
+        <!--25--><item>LOAD_IC DN</item>
+        <!--26--><item>OUT DN</item>
+        <!--27--><item>OUT RN</item>
+        <!--28--><item>OUT_IC DN</item>
+        <!--29--><item>OUT_IC RN</item>
+        <!--30--><item>MOV DN,RN</item>
+        <!--31--><item>MOV RN,DN</item>
+        <!--32--><item>INC DN</item>
+        <!--33--><item>DEC DN</item>
+        <!--34--><item>INC RN</item>
+        <!--35--><item>DEC RN</item>
+        <!--36--><item>ADD DN,VALOR</item>
+        <!--37--><item>ADD RN,VALOR</item>
+        <!--38--><item>SUBS DN,VALOR</item>
+        <!--39--><item>SUBS RN,VALOR</item>
+        <!--40--><item>IFCOND DN,VALOR</item>
+        <!--41--><item>IFCOND RN,VALOR</item>
+        <!--¿?--><item>IFDELAY SEGUNDOS ?</item>
+        <!--42--><item>STOP</item>
+        <!--43--><item>SEND RN</item>
+        <!--44--><item>SEND DN</item>
+        <!--45--><item>PWM DN</item>
+        <!--46--><item>PWM RN</item>
+    </string-array>
+</resources>
